@@ -4,6 +4,8 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.Map;
 
+
+//ACA LA CLASE MONEDA SERIALIZA EN UN MAP LOS conversion_rates del json, tomamos el iso de la moneda y el valor numerico
 public class Monedas {
     @SerializedName("conversion_rates")
 
@@ -13,8 +15,11 @@ public class Monedas {
         return tasasCambio;
     }
 
+
+    //esto me copie del profesor
     @Override
-    public String toString() {
+    public String toString()
+    {
         return "Tasas de Cambio: " + tasasCambio;
     }
 }

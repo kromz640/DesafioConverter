@@ -5,6 +5,7 @@ import java.io.IOException;
 public class Menu
 {
 
+    //EL MENU LO PUSE EN UNA FUNCION PARA ESTARLO INVOCANDO CUANDO SEA NECESARIO
     public void MOSTRAR_MENU()
     {
         System.out.println("""
@@ -23,6 +24,7 @@ public class Menu
             ELIJE UNA OPCION: """);
     }
 
+    //FUNCION CREDITOS DEL AUTOR
     public void MOSTRAR_AUTOR()
     {
         System.out.println("Gracias por usar El convertidor de moneda");
@@ -30,10 +32,6 @@ public class Menu
         System.out.println("Rolando Roque Kuan");
         System.out.println("Abril 2024");
     }
-/*
-    public void LIMPIAR_PANTALLA() throws IOException, InterruptedException {
-        new ProcessBuilder("cmd","/c","cls").inheritIO().start().waitFor();
-    }
-*/
+
 
 }
