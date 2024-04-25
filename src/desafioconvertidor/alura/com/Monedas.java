@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 import java.util.Map;
 
 public class Monedas {
-    @SerializedName("conversionrates")
+    @SerializedName("conversion_rates")
 
     private Map<String, Double> tasasCambio;
 
