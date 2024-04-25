@@ -29,10 +29,10 @@ public class Menu
         System.out.println("Rolando Roque Kuan");
         System.out.println("Abril 2024");
     }
-/*
+
     public void LIMPIAR_PANTALLA() throws IOException, InterruptedException {
         new ProcessBuilder("cmd","/c","cls").inheritIO().start().waitFor();
     }
 
- */
+
 }

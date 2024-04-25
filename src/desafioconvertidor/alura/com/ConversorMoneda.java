@@ -15,8 +15,8 @@ public class ConversorMoneda {
             System.out.println("El resultado en BRL es = " + dlbResultado);
             System.out.println("Presiona ENTER para continuar");
             System.in.read();
-          //  Menu menu = new Menu();
-          //  menu.LIMPIAR_PANTALLA();
+            Menu menu = new Menu();
+            menu.LIMPIAR_PANTALLA();
 
 
         }
