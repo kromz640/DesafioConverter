@@ -1,25 +1,30 @@
 package desafioconvertidor.alura.com;
 
-
-
 public class Menu
 {
+
     public void MOSTRAR_MENU()
     {
         System.out.println("""
             CONVERSOR DE MONEDA UTILIZANDO API EXCHANGE RATES
             
             MENU
-            Bienvenido al conversor de moneda
-            1- Dólar a Peso Argentino
-            2- Peso Argentino a Dólar
-            3- Dólar a Real Brasileño
-            4- Real Brasileño a Dólar
-            5- Dólar a Peso Colombiano
-            6- Peso Colombiano a Dólar
-            7- Salir
+            BIENVENIDO AL CONVERSOR DE MONEDA
+            1- DOLAR A PESO ARGENTINO
+            2- PESO ARGENTINO A DOLAR
+            3- DOLAR A REAL BRASILENO
+            4- REAL BRASILENO A DOLAR
+            5- DOLAR A PESO COLOMBIANO
+            6- PESO COLOMBIANO A DOLAR
+            7- SALIR
             
-            Elija una opción: """);
+            ELIJE UNA OPCION: """);
     }
 
+    public void MOSTRAR_AUTOR()
+    {
+        System.out.println("G6-ONE Backend Java");
+        System.out.println("Rolando Roque Kuan");
+        System.out.println("Abril 2024");
+    }
 }
