@@ -1,6 +1,20 @@
 package desafioconvertidor.alura.com;
 
-public class Monedas
-{
+import com.google.gson.annotations.SerializedName;
 
+import java.util.Map;
+
+public class Monedas {
+    @SerializedName("conversionrates")
+
+    private Map<String, Double> tasasCambio;
+
+    public Map<String, Double> getTasasCambio() {
+        return tasasCambio;
+    }
+
+    @Override
+    public String toString() {
+        return "Tasas de Cambio: " + tasasCambio;
+    }
 }
